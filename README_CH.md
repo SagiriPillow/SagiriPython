@@ -1,6 +1,6 @@
 # Sagiri Python
 这是一个非常无敌简单的 Cpython Dll 头文件，可以指定相关 Dll 文件的所在位置！
-而且相关的 Api 和官方的文档一模一样！仅支持 Windows ！
+而且相关的 Api 和官方的文档一模一样！仅支持 Windows ！[English](https://github.com/UnknownMistyRain/SagiriPython/blob/main/README.md)
 
 # 开箱即用？
 1. 拷贝这里的所有文件到项目根目录；
