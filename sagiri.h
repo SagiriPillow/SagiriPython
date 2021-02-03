@@ -562,14 +562,14 @@ FARPROC Py_FatalError;/**/
 FARPROC Py_FdIsInteractive;/**/
 FARPROC Py_FileSystemDefaultEncodeErrors;/**/
 FARPROC Py_FileSystemDefaultEncoding;/**/
-FARPROC Py_Finalize;/*结束解释器环境*/
+FARPROC Py_Finalize;/*藵谩臉艡藵芒臉脥膯梅钮藝啪艂*/
 FARPROC Py_FinalizeEx;/**/
 FARPROC Py_FrozenFlag;/**/
 FARPROC Py_GetBuildInfo;/**/
 FARPROC Py_GetCompiler;/**/
 FARPROC Py_GetCopyright;/**/
 FARPROC Py_GetExecPrefix;/**/
-FARPROC Py_GetPath;/*获取Path*/
+FARPROC Py_GetPath;/*钮艅膶膭Path*/
 FARPROC Py_GetPlatform;/**/
 FARPROC Py_GetPrefix;/**/
 FARPROC Py_GetProgramFullPath;/**/
@@ -3166,10 +3166,5 @@ bool SagiriStatus(char *status) {
 	char buffer[1024];
 	sprintf(buffer, "Sagiri - %s", status);
 	SetConsoleTitle(buffer);
-	return true;
-}
-
-bool ClosePython() {
-	Py_Finalize();
 	return true;
 }
