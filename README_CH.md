@@ -2,14 +2,21 @@
 这是一个非常无敌简单的 Cpython Dll 头文件，可以指定相关 Dll 文件的所在位置！
 而且相关的 Api 和官方的文档一模一样！仅支持 Windows ！
 
+# 开箱即用？
+1. 拷贝这里的所有文件到项目根目录；
+2. 将头文件 Include 到项目源码即可开始使用！
+3. 具体参考文档！
+4. 中文文档我不想写了哼啊啊啊，因为英文文档用翻译我试了下是"能看"的...
+
 # 如何使用？
 1. 将 sagiri.h 放到项目里；
 2. 然后将它 Include 到项目源码内；
 3. 下载一个 Cpython Dll 然后放到项目内；
-4. 加载 Python Dll ；
-5. 加载 Cpython 的 Api ;
-6. 调用 Api 就完事了！
-7. 整个过程具体可以参考 example.cpp ！
+4. 把基本的 Python 库拷贝到项目目录然后编写一个 Pth 文件 ;
+5. 加载 Python Dll ；
+6. 加载 Cpython 的 Api ;
+7. 调用 Api 就完事了！
+8. 整个过程具体可以参考 example.cpp ！
 
 # 如何获得一个 Python 的基本 Dll ？
 1. 很简单，下载一个 Python 安装包或者 Alpha 版本(Zip) ！
