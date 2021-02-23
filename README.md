@@ -1,6 +1,6 @@
 # SagiriPython
 A very convenient cpython interpreter dll api header file for Windows!
-[中文](https://github.com/UnknownMistyRain/SagiriPython/blob/main/README_CH.md)
+[中文](https://github.com/SagiriPillow/SagiriPython/blob/main/README_CH.md)
 
 # How to use it out of the box ?
 1. Copy all the files here to your project root directory.
