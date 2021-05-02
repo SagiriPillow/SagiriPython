@@ -1,6 +1,5 @@
 # SagiriPython
 A very convenient cpython interpreter dll api header file for Windows!
-[中文](https://mistyra.in/index.php/archives/python/35.html)
 
 # How to use it out of the box ?
 1. Copy all the files here to your project root directory.
